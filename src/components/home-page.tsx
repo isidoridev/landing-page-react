@@ -1,3 +1,4 @@
+/*
 import { UserCard } from './UserCard.tsx'
 
 
@@ -10,3 +11,4 @@ function HomePage() {
 }
 
 export default HomePage
+*/

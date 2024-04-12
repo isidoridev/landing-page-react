@@ -35,9 +35,11 @@ const Name = ({ val }: any): ReactNode => {
   return <p><strong className="color pink">{val}</strong></p>;
 }
 
+/*
 const Interests = ({s}: any) => {
   return s
 }
+*/
 
 export function UserCard(): ReactNode {
   const user: UserInfo = {
