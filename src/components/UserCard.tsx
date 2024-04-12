@@ -11,7 +11,7 @@ interface UserInfo {
 }
 
 export const Background = styled.div`
-  background: #191913;
+  background: #111012;
   margin: auto;
 `
 
