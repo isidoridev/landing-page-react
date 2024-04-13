@@ -45,9 +45,11 @@ const InterestText = styled.p`
   margin-right: 40px;
   color: red;
 `
+/*
 const BioText = ({ bio }: any): ReactNode => {
   return <p><i style={{color: "pink"}}>{bio}</i></p>;
 }
+*/
 
 export function UserCard(): ReactNode {
   const user: UserInfo = {
