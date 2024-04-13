@@ -24,7 +24,7 @@ export default function InterestCard() {
         <p>Not all writing is worth sharing, but I hope you can appreciate the ones that I decide to show you.</p>
 
       </div>
-    </ContentCar>
+    </ContentCard>
   </Background>
   )
 };
