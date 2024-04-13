@@ -67,10 +67,10 @@ export function UserCard(): ReactNode {
           <UserNameText username={user.name}/>
           <InterestsDiv>
             <Link to={'/interests'}>
-            {user.interests.map((i: String) => { 
+            {user.interests.map((item: String, index: number) => {
               return (
-                <InterestText key={i}>
-                  {i}
+                <InterestText key={index}>
+                  {item}
                 </InterestText>
               )})}
             </Link>
